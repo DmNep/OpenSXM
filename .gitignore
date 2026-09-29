@@ -1,0 +1,19 @@
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+.DS_Store
+Thumbs.db
+
+# KiCad
+*.kicad_pcb-bak
+*-backups/
+fp-info-cache
+~*.lck
+\#auto_save\#
+
+# Build and CAD outputs
+/fab/
+/gerber/
+*.zip
